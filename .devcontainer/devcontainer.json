@@ -1,5 +1,5 @@
 {
-  "name": "ghtun",
+  "name": "TUN",
   "build": {
     "dockerfile": "./Dockerfile",
     "context": "."
@@ -26,5 +26,6 @@
   "forwardPorts": [443],
   "hostRequirements": {
     "cpus": 2
-  }
+  },
+  "idleTimeout": 28800
 }
